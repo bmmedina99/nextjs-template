@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-template",
+  "name": "nextforge",
   "description": "Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados",
   "version": "0.0.1",
   "type": "module",
@@ -11,6 +11,10 @@
     "fmt": "pnpm biome format --write .",
     "lint": "pnpm biome lint --write ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmmedina99/nextforge.git"
+  },
   "dependencies": {
     "next": "15.3.3",
     "react": "19.1.0",
@@ -19,7 +23,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tailwindcss/postcss": "4.1.8",
-    "@types/node": "22.15.29",
+    "@types/node": "22.15.30",
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.6",
     "tailwindcss": "4.1.8",
