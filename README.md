@@ -8,8 +8,8 @@ Plantilla base para iniciar un nuevo proyecto con [Next.js](https://nextjs.org/)
 
 ## Características
 
-- **Next.js** v15.3 configurado para contenido dinámico.
-- **TailwindCSS** para los estilos.
+- **Next.js** v15 configurado para contenido dinámico.
+- **TailwindCSS** v4 para estilos rápidos.
 - **TypeScript** para usar con `tsconfig.json` optimizado.
 - **Biome** para lintear y formatear el código.
 
