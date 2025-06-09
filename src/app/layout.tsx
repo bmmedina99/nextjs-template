@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import '@/styles/globals.css'
 
 export const metadata: Metadata = {
-  title: 'Next.js Template',
+  title: 'NextForge - Next.js Template',
   description:
     'Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados',
   alternates: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'http://localhost:4000',
-    title: 'Next.js Template',
+    title: 'NextForge - Next.js Template',
     description:
       'Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados',
     siteName: 'Next.js',
@@ -25,11 +25,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Next.js Template',
-    description: 'The React Framework for the Web',
-    siteId: '1467726470533754880',
+    title: 'NextForge - Next.js Template',
+    description:
+      'Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados',
     creator: '@bmmedina99',
-    creatorId: '1467726470533754880',
     images: ['http://localhost:4000/twitter-card.webp'], // Debe ser una URL absoluta
   },
 }
