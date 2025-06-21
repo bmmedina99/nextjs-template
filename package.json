@@ -1,6 +1,6 @@
 {
-  "name": "nextforge",
-  "description": "Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados",
+  "name": "nextkit",
+  "description": "Plantilla de inicio para proyectos con Next.js App Router, preconfigurada con TypeScript y Tailwind CSS.",
   "version": "0.0.1",
   "type": "module",
   "private": true,
@@ -13,20 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bmmedina99/nextforge.git"
+    "url": "https://github.com/bmmedina99/nextkit.git"
   },
   "dependencies": {
-    "next": "15.3.3",
+    "next": "15.3.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@tailwindcss/postcss": "4.1.8",
-    "@types/node": "22.15.30",
-    "@types/react": "19.1.6",
+    "@biomejs/biome": "2.0.4",
+    "@tailwindcss/postcss": "4.1.10",
+    "@types/node": "24.0.3",
+    "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
-    "tailwindcss": "4.1.8",
+    "tailwindcss": "4.1.10",
     "typescript": "5.8.3"
   },
   "packageManager": "pnpm@10.12.1"
