@@ -8,3 +8,16 @@ export const configSite: Config = {
   author: 'bmmedina99',
   url: 'https://localhost:5000',
 }
+
+export const navLinks = [
+  {
+    id: '0',
+    title: 'Características',
+    href: '#features',
+  },
+  {
+    id: '1',
+    title: 'Comenzar',
+    href: '#started',
+  },
+]
