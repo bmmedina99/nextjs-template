@@ -16,6 +16,9 @@ export default function error({
   return (
     <main className='flex items-center justify-center min-h-screen'>
       <div className='w-full max-w-2xl space-y-8 text-center'>
+        <p className='mb-4 text-xs text-gray-300 md:text-sm'>
+          src/app/error.tsx
+        </p>
         <div className='space-y-4'>
           <h1 className='text-6xl font-bold text-transparent bg-gradient-to-r from-brandels-blue to-aquamarine bg-clip-text'>
             Oops!
