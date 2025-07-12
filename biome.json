@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
   "files": {
     "ignoreUnknown": false,
     "includes": ["**", "!**/build/**/*", "!**/.next/**/*"]
@@ -17,18 +17,6 @@
       "recommended": true,
       "nursery": {
         "useUniqueElementIds": "off"
-      },
-      "style": {
-        "noParameterAssign": "error",
-        "useAsConstAssertion": "error",
-        "useDefaultParameterLast": "error",
-        "useEnumInitializers": "error",
-        "useSelfClosingElements": "error",
-        "useSingleVarDeclarator": "error",
-        "noUnusedTemplateLiteral": "error",
-        "useNumberNamespace": "error",
-        "noInferrableTypes": "error",
-        "noUselessElse": "error"
       }
     }
   },
