@@ -1,7 +1,7 @@
 {
   "name": "nextkit",
   "description": "Plantilla de inicio para proyectos con Next.js App Router, preconfigurada con TypeScript y TailwindCSS.",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "private": true,
   "scripts": {
