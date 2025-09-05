@@ -1,6 +1,6 @@
 'use client'
 
-const notFound = () => {
+export default function notFound() {
   return (
     <div className='relative flex items-center justify-center min-h-screen p-4 overflow-hidden'>
       <div className='relative z-10 w-full max-w-4xl space-y-12 text-center'>
@@ -12,12 +12,11 @@ const notFound = () => {
             404
           </span>
         </div>
-
         <div className='space-y-6'>
           <h1 className='text-4xl font-bold text-gray-500 sm:text-5xl'>
             Página no encontrada
           </h1>
-          <p className='max-w-2xl mx-auto text-xl leading-relaxed text-gray-200'>
+          <p className='max-w-2xl mx-auto text-xl text-gray-200'>
             Lo sentimos, la página que estás buscando no existe o ha sido
             movida. Pero no te preocupes, hay muchas otras cosas increíbles que
             puedes explorar.
@@ -36,5 +35,3 @@ const notFound = () => {
     </div>
   )
 }
-
-export default notFound
