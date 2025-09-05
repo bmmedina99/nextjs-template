@@ -59,28 +59,9 @@ export default function error({
             Volver al inicio
           </a>
         </div>
-
-        {/* Decorative Elements */}
-        <div className='absolute w-20 h-20 rounded-full top-20 left-10 bg-aquamarine/20 blur-xl' />
-        <div className='absolute w-32 h-32 rounded-full bottom-20 right-10 bg-brandels-blue/20 blur-xl' />
+        <div className='absolute size-20 rounded-full top-20 left-10 bg-aquamarine/20 blur-xl' />
+        <div className='absolute size-32 rounded-full bottom-20 right-10 bg-brandels-blue/20 blur-xl' />
       </div>
     </main>
   )
 }
-// export default function error() {
-//   return (
-//     <main className='px-4 py-24'>
-//       <div className='container mx-auto text-center'>
-//         <p className='mb-4 text-black'>src/app/error.tsx</p>
-//         <h1 className='mb-6 text-5xl font-bold leading-tight text-white md:text-7xl'>
-//           NextKit
-//         </h1>
-//         <p className='max-w-3xl mx-auto mb-8 text-xl leading-relaxed text-slate-800'>
-//           Ha ocurrido un{' '}
-//           <span className='font-semibold text-red-600'>error inesperado</span>.
-//           Por favor, inténtalo de nuevo más tarde.
-//         </p>
-//       </div>
-//     </main>
-//   )
-// }
