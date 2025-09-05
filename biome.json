@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.2.3/schema.json",
   "files": {
     "ignoreUnknown": false,
     "includes": ["**", "!**/build/**/*", "!**/.next/**/*"]
@@ -15,8 +15,12 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "nursery": {
+      "nursery": {},
+      "correctness": {
         "useUniqueElementIds": "off"
+      },
+      "suspicious": {
+        "noUnknownAtRules": "off"
       }
     }
   },
