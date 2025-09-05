@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Documentación de NextKit"
+    url: "https://github.com/bmmedina99/nextkit#readme"
+    about: "Revisa el README para más información"
+
+  - name: "Documentación oficial Next.js"
+    url: "https://nextjs.org/docs"
+    about: "Revisa la documentación oficial de Next.js"
