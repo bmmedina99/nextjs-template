@@ -26,7 +26,7 @@ const Features = () => {
           </p>
         </div>
         <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
-          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-800/50 border-slate-700 hover:border-zinc-500 hover:shadow-lg hover:shadow-zinc-500/10'>
+          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-zinc-500 hover:shadow-lg hover:shadow-zinc-500/10'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-zinc-500 to-zinc-600'>
               <Icon name='nextjs' />
             </div>
@@ -38,7 +38,7 @@ const Features = () => {
               características
             </p>
           </div>
-          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-800/50 border-slate-700 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10'>
+          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-purple-500 to-purple-600'>
               <Icon name='tailwindcss' />
             </div>
@@ -49,7 +49,7 @@ const Features = () => {
               Estilos rápidos y modernos con la última versión.
             </p>
           </div>
-          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-800/50 border-slate-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10'>
+          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-blue-500 to-blue-600'>
               <Icon name='typescript' />
             </div>
@@ -61,7 +61,7 @@ const Features = () => {
             </p>
           </div>
 
-          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-800/50 border-slate-700 hover:border-green-500 hover:shadow-lg hover:shadow-green-500/10'>
+          <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-green-500 hover:shadow-lg hover:shadow-green-500/10'>
             <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-green-500 to-green-600'>
               <Icon name='biome' />
             </div>

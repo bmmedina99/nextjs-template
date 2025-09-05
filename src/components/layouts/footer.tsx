@@ -14,7 +14,7 @@ const Footer = () => {
                 name='nextjs'
                 width={12}
                 height={12}
-                classes='text-black'
+                classes='text-stone-950'
               />
             </div>
             <span className='font-semibold text-white'>NextKit Template</span>

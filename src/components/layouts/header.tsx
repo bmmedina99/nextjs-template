@@ -4,7 +4,7 @@ import Icon from '../ui/icon'
 
 const Header = () => {
   return (
-    <header className='border-b border-gray-800 bg-black/50 backdrop-blur-sm sticky top-0 z-50'>
+    <header className='border-b border-gray-800 bg-stone-950/50 backdrop-blur-sm sticky top-0 z-50'>
       <div className='container px-4 py-4 mx-auto'>
         <p className='mb-2 text-xs text-center text-zinc-200 md:text-sm'>
           src/components/layout/header.tsx
