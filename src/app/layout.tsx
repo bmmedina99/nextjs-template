@@ -10,10 +10,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={configSite.lang}>
-      <body className='min-h-screen antialiased bg-gradient-to-b from-stone-950 via-slate-600 to-stone-950'>
+      <body className='bg-gradient-to-br from-stone-950 via-slate-600 to-stone-950'>
         {children}
       </body>
     </html>
   )
 }
-q
