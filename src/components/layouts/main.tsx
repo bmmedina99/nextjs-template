@@ -1,15 +1,20 @@
-import Features from '../sections/features'
-import Hero from '../sections/hero'
-import Started from '../sections/started'
+import type { PropsWithChildren } from 'react'
 
-const Main = () => {
-  return (
-    <>
-      <Hero />
-      <Features />
-      <Started />
-    </>
-  )
+interface MainProps {
+  children: React.ReactNode
+  className?: string
 }
 
-export default Main
+export default function Main({
+  children,
+  className,
+}: PropsWithChildren<MainProps>) {
+  return (
+    <main
+      id='main-content'
+      className={`relative ${className}`}
+    >
+      {children}
+    </main>
+  )
+}

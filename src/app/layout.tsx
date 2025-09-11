@@ -1,6 +1,8 @@
 import { Poppins } from 'next/font/google'
 import { baseMetadata } from '@/components/metadata.config'
 import { configSite } from '@/site.config'
+import Header from '@/components/layouts/header'
+import Footer from '@/components/layouts/footer'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -18,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang={configSite.lang} className={poppins.className}>
       <body className='bg-gradient-to-br from-stone-950 via-slate-600 to-stone-950'>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

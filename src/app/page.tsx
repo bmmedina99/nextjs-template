@@ -1,13 +1,14 @@
-import Footer from '@/components/layouts/footer'
-import Header from '@/components/layouts/header'
 import Main from '@/components/layouts/main'
+import Features from '@/components/sections/features'
+import Hero from '@/components/sections/hero'
+import Started from '@/components/sections/started'
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <Main>
+      <Hero />
+      <Features />
+      <Started />
+    </Main>
   )
 }
