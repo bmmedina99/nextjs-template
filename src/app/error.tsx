@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import Main from '@/components/layout/main'
 
 export default function error({
   error,
@@ -14,23 +15,20 @@ export default function error({
   }, [error])
 
   return (
-    <main className='flex items-center justify-center min-h-screen'>
-      <div className='w-full max-w-2xl space-y-8 text-center'>
+    <Main className='relative flex items-center justify-center flex-grow overflow-hidden'>
+      <div className='max-w-2xl mx-auto space-y-4 text-center'>
         <p className='mb-4 text-xs text-gray-300 md:text-sm'>
           src/app/error.tsx
         </p>
-        <div className='space-y-4'>
-          <h1 className='text-6xl font-bold text-transparent bg-gradient-to-r from-brandels-blue to-aquamarine bg-clip-text'>
+        <section className='space-y-4'>
+          <h1 className='font-bold text-transparent bg-gradient-to-r from-brandels-blue to-aquamarine bg-clip-text'>
             Oops!
           </h1>
-          <h2 className='text-3xl font-semibold text-gray-500'>
-            Algo salió mal
-          </h2>
-          <p className='max-w-md mx-auto text-lg leading-relaxed text-gray-400'>
+          <h2 className='text-3xl font-semibold text-white'>Algo salió mal</h2>
+          <p className='max-w-md mx-auto text-lg leading-relaxed text-slate-300 text-pretty'>
             Ha ocurrido un error inesperado. No te preocupes, nuestro equipo ha
             sido notificado y está trabajando para solucionarlo.
           </p>
-
           {process.env.NODE_ENV === 'development' && (
             <details className='max-w-lg p-4 mx-auto mt-6 text-left border border-red-200 rounded-lg bg-red-50'>
               <summary className='font-medium text-red-700 cursor-pointer'>
@@ -41,8 +39,7 @@ export default function error({
               </pre>
             </details>
           )}
-        </div>
-
+        </section>
         <div className='flex flex-col items-center justify-center gap-4 sm:flex-row'>
           <button
             type='button'
@@ -59,9 +56,9 @@ export default function error({
             Volver al inicio
           </a>
         </div>
-        <div className='absolute size-20 rounded-full top-20 left-10 bg-aquamarine/20 blur-xl' />
-        <div className='absolute size-32 rounded-full bottom-20 right-10 bg-brandels-blue/20 blur-xl' />
+        <div className='absolute rounded-full size-20 top-20 left-10 bg-aquamarine/20 blur-xl' />
+        <div className='absolute rounded-full size-32 bottom-20 right-10 bg-brandels-blue/20 blur-xl' />
       </div>
-    </main>
+    </Main>
   )
 }
