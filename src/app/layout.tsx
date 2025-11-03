@@ -22,7 +22,7 @@ export default function RootLayout({
       lang={configSite.lang}
       className={poppins.className}
     >
-      <body className='bg-gradient-to-br from-stone-950 via-slate-600 to-stone-950'>
+      <body className='bg-linear-to-br from-stone-950 via-slate-600 to-stone-950'>
         <Header />
         {children}
         <Footer />

@@ -16,7 +16,7 @@ const Features = () => {
           </h2>
           <p className='max-w-2xl mx-auto text-lg text-slate-300 text-pretty'>
             Todo lo que necesitas para comenzar tu próximo proyecto con{' '}
-            <span className='relative inline-block before:absolute before:-inset-1 before:block before:skew-y-3 before:bg-gradient-to-r before:from-brandels-blue before:to-aquamarine'>
+            <span className='relative inline-block before:absolute before:-inset-1 before:block before:skew-y-3 before:bg-linear-to-r before:from-brandels-blue before:to-aquamarine'>
               <span className='relative font-semibold text-white'>
                 {' '}
                 Next.js
@@ -27,7 +27,7 @@ const Features = () => {
         </div>
         <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-zinc-500 hover:shadow-lg hover:shadow-zinc-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-zinc-500 to-zinc-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-zinc-500 to-zinc-600'>
               <Icon name='nextjs' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>
@@ -39,7 +39,7 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-purple-500 to-purple-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-purple-500 to-purple-600'>
               <Icon name='tailwindcss' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>
@@ -50,7 +50,7 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-blue-500 to-blue-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-blue-500 to-blue-600'>
               <Icon name='typescript' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>
@@ -62,7 +62,7 @@ const Features = () => {
           </div>
 
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-green-500 hover:shadow-lg hover:shadow-green-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-gradient-to-r from-green-500 to-green-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-green-500 to-green-600'>
               <Icon name='biome' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>Biome v2</h3>

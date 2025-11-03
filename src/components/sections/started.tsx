@@ -18,7 +18,7 @@ const Started = () => {
         </div>
         <div className='grid gap-8 md:grid-cols-4'>
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-gradient-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
               1
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -39,7 +39,7 @@ const Started = () => {
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-gradient-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
               2
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -56,7 +56,7 @@ const Started = () => {
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-gradient-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
               3
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -73,7 +73,7 @@ const Started = () => {
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-gradient-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
               4
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>

@@ -8,7 +8,7 @@ const Footer = () => {
       </p>
       <section className='flex flex-col items-center justify-between md:flex-row'>
         <div className='flex items-center mb-4 space-x-2 text-white md:mb-0'>
-          <div className='flex items-center justify-center rounded size-6 bg-gradient-to-r from-brandels-blue to-aquamarine'>
+          <div className='flex items-center justify-center rounded size-6 bg-linear-to-r from-brandels-blue to-aquamarine'>
             <Icon
               name='nextjs'
               width={12}

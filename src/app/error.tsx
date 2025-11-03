@@ -21,7 +21,7 @@ export default function error({
           src/app/error.tsx
         </p>
         <section className='space-y-4'>
-          <h1 className='font-bold text-transparent bg-gradient-to-r from-brandels-blue to-aquamarine bg-clip-text'>
+          <h1 className='font-bold text-transparent bg-linear-to-r from-brandels-blue to-aquamarine bg-clip-text'>
             Oops!
           </h1>
           <h2 className='text-3xl font-semibold text-white'>Algo salió mal</h2>
@@ -44,7 +44,7 @@ export default function error({
           <button
             type='button'
             onClick={reset}
-            className='flex items-center gap-3 px-8 py-4 font-semibold text-white transition-all duration-200 transform rounded-full shadow-lg group bg-gradient-to-r from-brandels-blue to-aquamarine hover:shadow-xl hover:scale-105'
+            className='flex items-center gap-3 px-8 py-4 font-semibold text-white transition-all duration-200 transform rounded-full shadow-lg group bg-linear-to-r from-brandels-blue to-aquamarine hover:shadow-xl hover:scale-105'
           >
             Intentar de nuevo
           </button>

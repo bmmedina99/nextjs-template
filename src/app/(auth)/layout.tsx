@@ -10,7 +10,7 @@ export default function RootLayout({
       lang={configSite.lang}
       className='scroll-smooth scroll-pt-12'
     >
-      <body className='min-h-screen antialiased bg-gradient-to-b from-stone-950 via-slate-600 to-stone-950'>
+      <body className='min-h-screen antialiased bg-linear-to-b from-stone-950 via-slate-600 to-stone-950'>
         {children}
       </body>
     </html>
