@@ -15,13 +15,17 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "nursery": {},
       "correctness": {
         "useUniqueElementIds": "off"
       },
       "suspicious": {
         "noUnknownAtRules": "off"
       }
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
     }
   },
   "javascript": {
