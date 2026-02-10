@@ -39,6 +39,22 @@ Plantilla base para iniciar un nuevo proyecto con [Next.js](https://nextjs.org/)
 
 ---
 
+## Estructura del proyecto
+
+nextkit/
+  |-- .github/ <-- configuraciones de GitHub
+    |-- workflows/ <-- acciones de GitHub
+      |-- develop.yml <-- pipeline de desarrollo, modificar la rama de desarrollo
+  |-- public/ <--  archivos estáticos
+  |-- src/ <-- código fuente
+    |-- app/ <-- aplicación Next.js
+    |-- assets/ <-- imágenes, fuentes, etc.
+    |-- components/ <-- componentes reutilizables
+    |-- lib/ <-- funciones y utilidades
+    |-- styles/ <-- estilos globales
+
+---
+
 ## Licencia
 
 Este proyecto está bajo la [Licencia MIT](./LICENSE).
