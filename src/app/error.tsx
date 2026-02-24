@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect } from 'react'
 import Main from '@/components/layout/main'
 
 export default function error({
@@ -10,10 +9,6 @@ export default function error({
   error: Error & { digest?: string }
   reset: () => void
 }) {
-  useEffect(() => {
-    console.error(error)
-  }, [error])
-
   return (
     <Main className='relative flex items-center justify-center flex-grow overflow-hidden'>
       <div className='max-w-2xl mx-auto space-y-4 text-center'>
