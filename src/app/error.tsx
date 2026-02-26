@@ -10,7 +10,7 @@ export default function error({
   reset: () => void
 }) {
   return (
-    <Main className='relative flex items-center justify-center flex-grow overflow-hidden'>
+    <Main className='relative flex items-center justify-center grow overflow-hidden'>
       <div className='max-w-2xl mx-auto space-y-4 text-center'>
         <p className='mb-4 text-xs text-gray-300 md:text-sm'>
           src/app/error.tsx
@@ -29,7 +29,7 @@ export default function error({
               <summary className='font-medium text-red-700 cursor-pointer'>
                 Detalles del error (desarrollo)
               </summary>
-              <pre className='mt-2 text-sm text-red-600 break-words whitespace-pre-wrap'>
+              <pre className='mt-2 text-sm text-red-600 wrap-break-word whitespace-pre-wrap'>
                 {error.message}
               </pre>
             </details>

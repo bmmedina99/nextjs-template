@@ -4,7 +4,7 @@ import Main from '@/components/layout/main'
 
 export default function notFound() {
   return (
-    <Main className='flex items-center justify-center flex-grow overflow-hidden'>
+    <Main className='flex items-center justify-center grow overflow-hidden'>
       <div className='relative z-10 max-w-4xl mx-auto space-y-4 text-center'>
         <p className='mb-4 text-xs text-gray-300 md:text-sm'>
           src/app/not-found.tsx
