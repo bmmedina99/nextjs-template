@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
 
       - name: Realizando la build
-        run: pnpm run build --if-present
+        run: pnpm run build
         if: always()
 
   security-check:
