@@ -26,7 +26,7 @@ export default function error({
           </p>
           {process.env.NODE_ENV === 'development' && (
             <details className='max-w-lg p-4 mx-auto mt-6 text-left border border-red-200 rounded-lg bg-red-50'>
-              <summary className='font-medium text-red-700 cursor-pointer'>
+              <summary className='font-semibold text-red-700 cursor-pointer'>
                 Detalles del error (desarrollo)
               </summary>
               <pre className='mt-2 text-sm text-red-600 wrap-break-word whitespace-pre-wrap'>
