@@ -9,7 +9,7 @@ export default function notFound() {
         <p className='mb-4 text-xs text-gray-300 md:text-sm'>
           src/app/not-found.tsx
         </p>
-        <p className='text-6xl font-bold leading-none text-transparent sm:text-8xl bg-clip-text bg-linear-to-t from-brandels-blue via-aquamarine to-brandels-blue'>
+        <p className='text-6xl font-bold leading-none text-transparent sm:text-8xl bg-clip-text bg-linear-to-t from-brandels-100 via-aqua-100 to-brandels-100'>
           404
         </p>
         <section className='space-y-6'>

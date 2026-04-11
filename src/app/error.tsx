@@ -16,7 +16,7 @@ export default function error({
           src/app/error.tsx
         </p>
         <section className='space-y-4'>
-          <h1 className='font-bold text-transparent bg-linear-to-r from-brandels-blue to-aquamarine bg-clip-text'>
+          <h1 className='font-bold text-transparent bg-linear-to-r from-brandels-100 to-aqua-100 bg-clip-text'>
             Oops!
           </h1>
           <h2 className='text-3xl font-semibold text-white'>Algo salió mal</h2>
@@ -39,20 +39,20 @@ export default function error({
           <button
             type='button'
             onClick={reset}
-            className='flex items-center gap-3 px-8 py-4 font-semibold text-white transition-all duration-200 transform rounded-full shadow-lg group bg-linear-to-r from-brandels-blue to-aquamarine hover:shadow-xl hover:scale-105'
+            className='flex items-center gap-3 px-8 py-4 font-semibold text-white transition-all duration-200 transform rounded-full shadow-lg group bg-linear-to-r from-brandels-100 to-aqua-100 hover:shadow-xl hover:scale-105'
           >
             Intentar de nuevo
           </button>
 
           <a
             href='/'
-            className='flex items-center gap-3 px-8 py-4 font-semibold text-gray-700 transition-all duration-200 transform bg-white border-2 border-gray-200 rounded-full shadow-lg hover:shadow-xl hover:border-brandels-blue/30 hover:scale-105'
+            className='flex items-center gap-3 px-8 py-4 font-semibold text-gray-700 transition-all duration-200 transform bg-white border-2 border-gray-200 rounded-full shadow-lg hover:shadow-xl hover:border-brandels-100/30 hover:scale-105'
           >
             Volver al inicio
           </a>
         </div>
-        <div className='absolute rounded-full size-20 top-20 left-10 bg-aquamarine/20 blur-xl' />
-        <div className='absolute rounded-full size-32 bottom-20 right-10 bg-brandels-blue/20 blur-xl' />
+        <div className='absolute rounded-full size-20 top-20 left-10 bg-aqua-100/20 blur-xl' />
+        <div className='absolute rounded-full size-32 bottom-20 right-10 bg-brandels-100/20 blur-xl' />
       </div>
     </Main>
   )

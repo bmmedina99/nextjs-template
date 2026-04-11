@@ -8,7 +8,7 @@ const hero = () => {
       </p>
       <h1 className='mb-6 font-bold leading-tight text-white'>
         NextKit
-        <span className='block text-transparent bg-clip-text bg-linear-to-t from-brandels-blue to-aquamarine'>
+        <span className='block text-transparent bg-clip-text bg-linear-to-t from-brandels-100 to-aqua-100'>
           Template
         </span>
       </h1>

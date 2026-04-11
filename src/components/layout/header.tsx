@@ -11,7 +11,7 @@ const Header = () => {
         </p>
         <div className='flex items-center justify-between'>
           <div className='flex items-center space-x-2 text-white'>
-            <div className='flex items-center justify-center w-8 h-8 rounded-lg bg-linear-to-tr from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center w-8 h-8 rounded-lg bg-linear-to-tr from-brandels-100 to-aqua-100'>
               <Icon
                 name='nextjs'
                 classes=''

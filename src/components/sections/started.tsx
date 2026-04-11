@@ -18,7 +18,7 @@ const Started = () => {
         </div>
         <div className='grid gap-8 md:grid-cols-4'>
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-100 to-aqua-100'>
               1
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -30,7 +30,7 @@ const Started = () => {
                 href='https://github.com/new?template_name=nextkit&template_owner=bmmedina99'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='underline text-brandels-blue hover:text-blue-400'
+                className='underline text-brandels-100 hover:text-blue-400'
               >
                 Use this template
               </a>{' '}
@@ -39,7 +39,7 @@ const Started = () => {
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-100 to-aqua-100'>
               2
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -49,14 +49,14 @@ const Started = () => {
               Usa el template desde GitHub para crear tu nuevo repositorio
             </p>
             <div className='p-4 text-left bg-gray-900 rounded-lg'>
-              <code className='text-sm break-all text-aquamarine'>
+              <code className='text-sm break-all text-aqua-100'>
                 git clone https://github.com/tu-usuario/nombre-proyecto.git
               </code>
             </div>
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-100 to-aqua-100'>
               3
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -66,14 +66,14 @@ const Started = () => {
               Instala todas las dependencias necesarias
             </p>
             <div className='p-4 text-left bg-gray-900 rounded-lg'>
-              <code className='text-sm text-aquamarine'>
+              <code className='text-sm text-aqua-100'>
                 cd mi-proyecto && pnpm install
               </code>
             </div>
           </div>
 
           <div className='text-center'>
-            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-blue to-aquamarine'>
+            <div className='flex items-center justify-center mx-auto mb-4 text-xl font-bold text-stone-950 rounded-full size-16 bg-linear-to-t from-brandels-100 to-aqua-100'>
               4
             </div>
             <h3 className='mb-2 text-xl font-semibold text-white'>
@@ -83,7 +83,7 @@ const Started = () => {
               Inicia el servidor de desarrollo y comienza a crear
             </p>
             <div className='p-4 text-left bg-gray-900 rounded-lg'>
-              <code className='text-sm text-aquamarine'>pnpm run dev</code>
+              <code className='text-sm text-aqua-100'>pnpm run dev</code>
             </div>
           </div>
         </div>

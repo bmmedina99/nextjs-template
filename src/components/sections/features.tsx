@@ -16,7 +16,7 @@ const Features = () => {
           </h2>
           <p className='max-w-2xl mx-auto text-lg text-slate-300 text-pretty'>
             Todo lo que necesitas para comenzar tu próximo proyecto con{' '}
-            <span className='relative inline-block before:absolute before:-inset-1 before:block before:skew-y-3 before:bg-linear-to-r before:from-brandels-blue before:to-aquamarine'>
+            <span className='relative inline-block before:absolute before:-inset-1 before:block before:skew-y-3 before:bg-linear-to-r before:from-brandels-100 before:to-aqua-100'>
               <span className='relative font-semibold text-white'>
                 {' '}
                 Next.js
