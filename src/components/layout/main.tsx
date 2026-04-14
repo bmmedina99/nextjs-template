@@ -12,7 +12,7 @@ export default function Main({
   return (
     <main
       id='main-content'
-      className={`relative ${className}`}
+      className={`relative flex-1 overflow-hidden ${className}`}
     >
       {children}
     </main>
