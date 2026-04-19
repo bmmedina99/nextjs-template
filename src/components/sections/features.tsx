@@ -17,7 +17,7 @@ const Features = () => {
           <p className='max-w-2xl mx-auto text-lg text-slate-300 text-pretty'>
             Todo lo que necesitas para comenzar tu próximo proyecto con{' '}
             <span className='relative inline-block before:absolute before:-inset-1 before:block before:skew-y-3 before:bg-linear-to-r before:from-brandels-100 before:to-aqua-100'>
-              <span className='relative font-semibold text-white'>
+              <span className='relative font-semibold text-neutral-800'>
                 {' '}
                 Next.js
               </span>
@@ -31,7 +31,7 @@ const Features = () => {
               <Icon name='nextjs' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>
-              Next.js v15
+              Next.js v16
             </h3>
             <p className='text-sm text-slate-400'>
               App Router configurado para contenido dinámico con las últimas
@@ -39,7 +39,7 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-purple-500 to-purple-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-purple-500 to-purple-800'>
               <Icon name='tailwindcss' />
             </div>
             <h3 className='mb-2 text-lg font-semibold text-white'>
@@ -50,11 +50,11 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-blue-500 to-blue-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-blue-800 to-blue-600'>
               <Icon name='typescript' />
-            </div>
+            </div>gio
             <h3 className='mb-2 text-lg font-semibold text-white'>
-              TypeScript v5
+              TypeScript v6
             </h3>
             <p className='text-sm text-slate-400'>
               Configuración optimizada con tsconfig.json para mejor desarrollo.

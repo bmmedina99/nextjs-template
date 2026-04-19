@@ -24,7 +24,7 @@ const hero = () => {
           href='https://github.com/new?template_name=nextkit&template_owner=bmmedina99'
           target='_blank'
           rel='noopener noreferrer'
-          className='flex gap-4 px-4 py-3 text-white border-0 rounded-md bg-linear-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700'
+          className='flex gap-4 px-4 py-3 text-white border-0 rounded-md bg-linear-to-r from-blue-800 to-purple-800 hover:from-purple-800 hover:to-blue-800'
         >
           <Icon name='template' />
           Usar Template
