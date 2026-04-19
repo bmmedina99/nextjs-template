@@ -10,7 +10,7 @@ const Header = () => {
           src/components/layout/header.tsx
         </p>
         <div className='flex items-center justify-between'>
-          <div className='flex items-center space-x-2 text-white'>
+          <div className='flex items-center space-x-2 text-slate-300'>
             <div className='flex items-center justify-center w-8 h-8 rounded-lg bg-linear-to-tr from-brandels-100 to-aqua-100'>
               <Icon
                 name='nextjs'
@@ -24,7 +24,7 @@ const Header = () => {
               <Link
                 key={link.id}
                 href={link.href}
-                className='text-gray-300 hover:text-white transition-colors'
+                className='text-gray-300 hover:text-slate-300 transition-colors'
               >
                 {link.title}
               </Link>
@@ -34,7 +34,7 @@ const Header = () => {
             href='https://github.com/bmmedina99/nextkit'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center justify-center rounded-lg border-2 border-gray-700 bg-transparent px-4 py-2 text-white transition-colors hover:bg-gray-800 '
+            className='flex items-center justify-center rounded-lg border-2 border-gray-700 bg-transparent px-4 py-2 text-slate-300 transition-colors hover:bg-gray-800 '
           >
             <Icon
               name='github'

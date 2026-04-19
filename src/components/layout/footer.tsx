@@ -7,7 +7,7 @@ const Footer = () => {
         src/components/layout/footer.tsx
       </p>
       <section className='container mx-auto flex flex-col items-center justify-between md:flex-row'>
-        <div className='flex items-center mb-4 space-x-2 text-white md:mb-0'>
+        <div className='flex items-center mb-4 space-x-2 text-slate-300 md:mb-0'>
           <div className='flex items-center justify-center size-6 rounded bg-linear-to-r from-brandels-100 to-aqua-100'>
             <Icon
               name='nextjs'

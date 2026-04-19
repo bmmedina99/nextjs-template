@@ -6,7 +6,7 @@ const hero = () => {
       <p className='mb-4 text-xs text-gray-300 md:text-sm'>
         src/components/sections/hero.tsx
       </p>
-      <h1 className='mb-6 font-bold leading-tight text-white'>
+      <h1 className='mb-6 font-bold leading-tight text-slate-300'>
         NextKit
         <span className='block text-transparent bg-clip-text bg-linear-to-t from-brandels-100 to-aqua-100'>
           Template
@@ -24,7 +24,7 @@ const hero = () => {
           href='https://github.com/new?template_name=nextkit&template_owner=bmmedina99'
           target='_blank'
           rel='noopener noreferrer'
-          className='flex gap-4 px-4 py-3 text-white border-0 rounded-md bg-linear-to-r from-blue-800 to-purple-800 hover:from-purple-800 hover:to-blue-800'
+          className='flex gap-4 px-4 py-3 text-slate-300 border-0 rounded-md bg-linear-to-r from-blue-800 to-purple-800 hover:from-purple-800 hover:to-blue-800'
         >
           <Icon name='template' />
           Usar Template

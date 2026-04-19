@@ -11,7 +11,7 @@ const Features = () => {
           <p className='mb-2 text-xs text-gray-300 md:text-sm'>
             src/components/sections/features.tsx
           </p>
-          <h2 className='mb-4 text-4xl font-bold text-white'>
+          <h2 className='mb-4 text-4xl font-bold text-slate-300'>
             Características
           </h2>
           <p className='max-w-2xl mx-auto text-lg text-slate-300 text-pretty'>
@@ -27,10 +27,10 @@ const Features = () => {
         </div>
         <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-zinc-500 hover:shadow-lg hover:shadow-zinc-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-zinc-500 to-zinc-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-lg text-slate-300 bg-linear-to-r from-zinc-500 to-zinc-600'>
               <Icon name='nextjs' />
             </div>
-            <h3 className='mb-2 text-lg font-semibold text-white'>
+            <h3 className='mb-2 text-lg font-semibold text-slate-300'>
               Next.js v16
             </h3>
             <p className='text-sm text-slate-400'>
@@ -39,10 +39,10 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-purple-500 to-purple-800'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-lg text-slate-300 bg-linear-to-r from-purple-500 to-purple-800'>
               <Icon name='tailwindcss' />
             </div>
-            <h3 className='mb-2 text-lg font-semibold text-white'>
+            <h3 className='mb-2 text-lg font-semibold text-slate-300'>
               TailwindCSS v4
             </h3>
             <p className='text-sm text-slate-400'>
@@ -50,10 +50,10 @@ const Features = () => {
             </p>
           </div>
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-blue-800 to-blue-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-lg text-slate-300 bg-linear-to-r from-blue-800 to-blue-600'>
               <Icon name='typescript' />
-            </div>gio
-            <h3 className='mb-2 text-lg font-semibold text-white'>
+            </div>
+            <h3 className='mb-2 text-lg font-semibold text-slate-300'>
               TypeScript v6
             </h3>
             <p className='text-sm text-slate-400'>
@@ -62,10 +62,12 @@ const Features = () => {
           </div>
 
           <div className='p-6 transition-all duration-300 border rounded-lg bg-slate-600/50 border-slate-700 hover:border-green-500 hover:shadow-lg hover:shadow-green-500/10'>
-            <div className='flex items-center justify-center w-12 h-12 mb-4 text-white rounded-lg bg-linear-to-r from-green-500 to-green-600'>
+            <div className='flex items-center justify-center w-12 h-12 mb-4 rounded-lg text-slate-300 bg-linear-to-r from-green-500 to-green-600'>
               <Icon name='biome' />
             </div>
-            <h3 className='mb-2 text-lg font-semibold text-white'>Biome v2</h3>
+            <h3 className='mb-2 text-lg font-semibold text-slate-300'>
+              Biome v2
+            </h3>
             <p className='text-sm text-slate-400'>
               Para lintear y formatear el código.
             </p>

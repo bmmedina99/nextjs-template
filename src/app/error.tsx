@@ -19,7 +19,9 @@ export default function error({
           <h1 className='font-bold text-transparent bg-linear-to-r from-brandels-100 to-aqua-100 bg-clip-text'>
             Oops!
           </h1>
-          <h2 className='text-3xl font-semibold text-white'>Algo salió mal</h2>
+          <h2 className='text-3xl font-semibold text-slate-300'>
+            Algo salió mal
+          </h2>
           <p className='max-w-md mx-auto text-lg leading-relaxed text-slate-300 text-pretty'>
             Ha ocurrido un error inesperado. No te preocupes, nuestro equipo ha
             sido notificado y está trabajando para solucionarlo.
@@ -39,7 +41,7 @@ export default function error({
           <button
             type='button'
             onClick={reset}
-            className='flex items-center gap-3 px-8 py-4 font-semibold text-white transition-all duration-200 transform rounded-full shadow-lg group bg-linear-to-r from-brandels-100 to-aqua-100 hover:shadow-xl hover:scale-105'
+            className='flex items-center gap-3 px-8 py-4 font-semibold text-slate-300 transition-all duration-200 transform rounded-full shadow-lg group bg-linear-to-r from-brandels-100 to-aqua-100 hover:shadow-xl hover:scale-105'
           >
             Intentar de nuevo
           </button>

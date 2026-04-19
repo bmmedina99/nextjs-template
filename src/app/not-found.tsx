@@ -10,7 +10,7 @@ export default function notFound() {
           <p className='mb-4 text-xs text-gray-300 md:text-sm'>
             src/app/not-found.tsx
           </p>
-          <h1 className='font-bold text-white'>Página no encontrada</h1>
+          <h1 className='font-bold text-slate-300'>Página no encontrada</h1>
           <p className='max-w-xl text-xl leading-relaxed text-slate-300 text-pretty'>
             Lo sentimos, la página que estás buscando no existe o ha sido
             movida. Pero no te preocupes, hay muchas otras cosas increíbles que
