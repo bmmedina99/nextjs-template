@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "next": "16.2.8",
-    "react": "19.2.6",
+    "react": "19.2.7",
     "react-dom": "19.2.7"
   },
   "devDependencies": {
@@ -34,5 +34,5 @@
     "tailwindcss": "4.3.0",
     "typescript": "6.0.3"
   },
-  "packageManager": "pnpm@11.3.0"
+  "packageManager": "pnpm@11.5.2"
 }
