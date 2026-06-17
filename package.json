@@ -19,7 +19,7 @@
     "url": "https://github.com/bmmedina99/nextkit/issues"
   },
   "dependencies": {
-    "next": "16.2.8",
+    "next": "16.2.9",
     "react": "19.2.7",
     "react-dom": "19.2.7"
   },
